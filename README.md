@@ -27,7 +27,6 @@ Key | Range | Does
 `separator-thickness` | value in pixels (7 by default) | The thickness of the separator between the primary and secondary components
 `primary-component-toggled-off` | boolean `true` or `false` (false by default) | Hide the primary component and the separator
 `secondary-component-toggled-off` | boolean `true` or `false` (false by default) | Hide the secondary component and the separator
-`secondary-component-minsize` | value in pixels | Only allow the secondary pane (either bottom or right) to go as small as this
 `primary-component-initialratio` | initial value in a ratio of primary/secondary (range 0-1) | The initial size to create the primary pane (secondary will fill the remaining), this value will be over-ridden if a value is found in the local storage.
 `local-storage-key` | string value used as the key  | If this value is present, uses this key withing localstorage to remember the position of the divider bar
 
